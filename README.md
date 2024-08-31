@@ -1,6 +1,6 @@
 # Dementia Classification from MRI Images Using Machine Learning and Deep Learning Models
 
-**Note:** For a detailed report prepared in Turkish, please refer to the `UBMK.pdf` file. This document provides an in-depth analysis and comprehensive explanation of the methods, results, and findings discussed in this project.
+**Note:** For a detailed report prepared in Turkish, please refer to the `Rapor.pdf` file. This document provides an in-depth analysis and comprehensive explanation of the methods, results, and findings discussed in this project.
 
 **Important:** The `.pt` files (model weights) for the CNN models are not included in this repository due to their large size. To use the models, you will need to train them using the provided scripts or download the weights separately if available.
 
