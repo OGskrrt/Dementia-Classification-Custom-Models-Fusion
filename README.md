@@ -45,6 +45,9 @@ We initially tested several pre-trained CNN models, including VGG16, AlexNet, Un
 ### Custom CNN Model Development
 The custom CNN model was specifically designed to address challenges such as class imbalance and subtle differences in dementia levels. It included advanced components like convolutional layers, pooling layers, and dropout regularization to enhance performance and prevent overfitting.
 
+![CNNmodelGoruntu](https://github.com/user-attachments/assets/ee760fec-b016-417e-8ffa-f32e861b7aa9)
+
+
 ### Transfer Learning Attempts
 Feature extraction using pre-trained models like AlexNet and VGG16 was also explored but did not yield satisfactory results compared to the custom CNN approach.
 
@@ -60,6 +63,9 @@ Beyond visual features, numerical data was extracted from the MRI images, includ
 
 A custom ANN model was developed to handle the numerical data, as pre-trained machine learning models like XGBoost, LightGBM, and RandomForest were insufficient. The ANN model effectively processed these features, complementing the CNN’s visual analysis.
 
+![ANNmodelGoruntu2](https://github.com/user-attachments/assets/32469cc2-07c8-44f3-9925-49d8d25a98f6)
+
+
 ### Training Strategies
 Advanced training techniques such as cyclic learning rates, dropout regularization, and batch normalization were employed to enhance the ANN model’s performance, ensuring rapid convergence and robustness.
 
@@ -70,6 +76,9 @@ The hybrid fusion model combined the strengths of the custom CNN and ANN models.
 
 ### Fusion Strategy
 Various fusion strategies were tested, including 75% CNN - 25% ANN and 50% CNN - 50% ANN, with the latter proving most effective. This approach highlighted the power of integrating diverse data types for complex medical classification tasks.
+
+![FusionModel](https://github.com/user-attachments/assets/bbe6497e-62e5-477a-8701-43b53e592e90)
+
 
 ## Final Results
 
